@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+}
+#game{
+	position: relative;
+	width:1024px;
+	height: 800px;
+	background-image: url("images/fon.jpg");
+}
+
+.factoryDiv1{
+	position:absolute;
+	margin-top:80px;
+	margin-left: 50px;
+	width: 302px;
+	height: 137px;
+	background-image: url("images/factory.png");
+	background-repeat: no-repeat;
+
+}
+
+.factoryDiv{
+	display: inline;
+	width: 302px;
+	height: 137px;
+	
+
+}
+.factory{
+	opacity: 0;
+	margin-left:40px;
+	margin-top:70px;
+}
+
+.fabric{
+	opacity: 0;
+	margin-left:10px;
+	margin-top:20px;
+}
+
+.fabricDiv{
+	margin-top:20px;
+	margin-left: 70px;
+}
+
+.panelDiv{
+	height: 173px;
+	position: absolute;
+      bottom: 0;
+  }
+
+ .fabricButton{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+     cursor: pointer;
+ }
+
+ .factoryButton{
+ 	margin-top: 40px;
+ 	margin-left: 500px;
+    position: absolute;
+     cursor: pointer;
+ }
+
+ .coinImg{
+ 	margin-top: 80px;
+ 	margin-left: 800px;
+    position: absolute;
+    
+ }
+
+ @font-face{
+ 	font-family: Delicious; 
+ 	src: url("fonts/prstartk.ttf") format('embedded-opentype');
+ 	src:  url('fonts/prstartk.woff') format('woff'), url('fonts/prstartk.ttf') format('truetype');
+ }
+
+ .coinAmount{
+ 	font-family: Delicious;
+	font-size: 42pt;
+    color: yellow;
+    margin-top: 89px;
+    margin-left: 860px;
+    position: absolute
+
+ }
+
+ .dropCoin{
+ 	position: absolute;
+ 	top:100px;
+ 	left:100px;
+
+ }
+
+ .carpet{
+ 	position:absolute;
+ 	width:1024px;
+ 	height: 800px;
+ 	background-color: rgba(0,0,0,0.5);
+ 	z-index: 1001;
+ }
+ .start{
+ 	position: absolute;
+ 	opacity: 1;
+ 	top:325px;
+ 	left:266px;
+ 	cursor: pointer;
+ }
